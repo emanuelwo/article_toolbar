@@ -30,11 +30,11 @@ class article_toolbar extends Plugin {
 			<i class="material-icons"
                title="Refresh Feed">&nbsp;&#8635;&nbsp;</i>
 		</button>
-		<button dojoType="dijit.form.Button" onclick="Headlines.move('prev', true)">
+		<button dojoType="dijit.form.Button" onclick="Headlines.move('prev', {noscroll: true });">
 			<i class="material-icons"
                title="Previous Post">&nbsp;&#9650;&nbsp;</i>
 		</button>
-		<button dojoType="dijit.form.Button" onclick="Headlines.move('next', true)">
+		<button dojoType="dijit.form.Button" onclick="Headlines.move('next', { noscroll: true });">
 			<i class="material-icons"
                title="Next Post">&nbsp;&#9660;&nbsp;</i>
 		</button>
